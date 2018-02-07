@@ -1,8 +1,80 @@
+/*tag 기능에 대한 것*/
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a {
-  color: #00B7FF;
+/* class 속성을 지정*/
+.title {
+    font-size: 30px;
 }
+
+.horizon_group {
+    display: flex;
+    height: 300px;
+}
+
+.horizon_group > .field {
+    width: 100px;
+    height: 100%;
+    border: solid 1px #ccc;
+}
+
+.horizon_group > .field_2 {
+    flex: 1;
+    height: 100%;
+    border: solid 1px #ccc;
+}
+
+.horizon_group > .field_2#main {
+    flex: 3;
+    height: 100%;
+    border: solid 1px #ccc;
+}
+
+#headline {
+    height: 100px;
+    text-align: center;
+}
+
+.icon_block {
+    border-top: solid 1px rgba(0, 0, 0, .2);
+    height: 100px;
+    background: #fa0;
+    display: block !important;
+    text-align: center;
+    line-height: 100px !important;
+    color : #fff;
+
+}
+
+.large_font {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.medium_font {
+    font-size: 20px;
+}
+
+.dark {
+    background: #000;
+    color: #fff;
+}
+
+.bright {
+    background: #ccc;
+    color: #333;
+}
+
+/* ID */
+#id {
+
+}
+
