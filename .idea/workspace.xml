@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01b1c3f1-2660-4893-a21a-198abb559f7d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/t1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,20 +18,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+            <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="328">
+                    <caret line="51" column="8" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+                    <folding>
+                      <element signature="e#2610#8948#2" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="www" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/www">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -40,24 +55,39 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="230">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="253">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>photo</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,6 +96,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
       </list>
     </option>
   </component>
@@ -80,9 +112,10 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="976" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
+    <option name="y" value="19" />
+    <option name="width" value="925" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -101,49 +134,63 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="try1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="try1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="try1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="try1" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="try1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="try1" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="try1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="try1" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="try1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="try1" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-              <item name="style.sass" type="620a8d5e:NestingTreeNode" />
+              <item name="try1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="try1" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="try1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="try1" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/www" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dpwls\WebstormProjects\try1\public\images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,6 +251,24 @@
         </option>
       </EXTENSION>
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Runner" />
+      <item index="1" class="java.lang.String" itemvalue="npm.start" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -215,33 +280,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517981379525</updated>
-      <workItem from="1517981381804" duration="382000" />
+      <workItem from="1517981381804" duration="1261000" />
+      <workItem from="1517985678861" duration="17084000" />
+      <workItem from="1518143663285" duration="8926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="382000" />
+    <option name="totallyTimeSpent" value="27271000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="960" y="19" width="925" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12268641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26309794" sideWeight="0.48173913" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34210527" sideWeight="0.5045558" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34210527" sideWeight="0.49544418" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26309794" sideWeight="0.5182609" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -264,27 +331,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="230">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        <state relative-caret-position="299">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2610#8948#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.sass" />
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jade/jade.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211119">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="51" column="8" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          <folding>
+            <element signature="e#2610#8948#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
