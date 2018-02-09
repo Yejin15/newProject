@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: #e5e8ed;
+    font-family: 'Lato', sans-serif;
 }
 
 * {
@@ -18,7 +19,6 @@ body {
     border-top: solid 7px #e76f4e;
     background: #fff;
     color : #4a4a4a;
-    font-family: 'Lato', sans-serif;
     border-radius: 10px;
     margin : 19px 6px 17px;
     display: flex;
