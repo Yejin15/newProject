@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #ccc;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+/* 중앙정렬 용 CSS */
+.outer {
+    margin: auto;
+    width: 480px;
+    height: 100%;
+    display: table;
+}
+
+.outer > .outer-cell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* 내용 디자인 용 */
+.content {
+    width: 100%;
+    height: 800px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 8px;
+}
+
+.text.send {
+    text-align: left;
+}
+
+.text.receive {
+    text-align: right;
+}
+
+
