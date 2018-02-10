@@ -1,0 +1,47 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.talk.css')
+        link(href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        link(href="", rel="stylesheet")
+    body
+        div.outer
+            .outer-cell
+                .content
+                    .titlebar
+                        .text #{messages[0].name}
+                     .body
+                        -for (var i = 0; i < messages.length; i++)
+                            if ( messages[i].type == 'receive')
+                                .text.receive(style="height :" + messages[i].text.length*1.7 + "px")
+                                    .text.receive.photozone
+
+                                        .text.receive.photozone.photo
+                                    .text.receive.textzone #{messages[i].text}
+                                    .text.receive.empty
+
+                            else if ( messages[i].type == 'send')
+                                .text.send(style="height :" + messages[i].text.length*1.7 + "px")
+                                    .text.send.empty1
+                                    .text.send.textzone #{messages[i].text}
+                                    .text.send.empty2
+                            .empty
+
+
+
+                    .inputbar
+                        .empty
+                        .text Message Bot Name...
+                    .iconzone
+                        .icon.i.material-icons sort_by_alpha
+                        .icon.i.material-icons camera_alt
+                        .icon.i.material-icons insert_photo
+                        .icon.i.material-icons insert_emoticon
+                        .icon.i.material-icons gif
+                        .icon.i.material-icons mic_none
+                        .icon.i.material-icons location_on
+                        .icon.selected.i.material-icons thumb_up
+
