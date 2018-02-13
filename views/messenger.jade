@@ -2,11 +2,11 @@ doctype html
 html
     head
         title= title
-        link(rel='stylesheet', href='/stylesheets/style.talk.css')
+        link(rel='stylesheet', href='/stylesheets/talk.css')
         link(href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet")
         link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-        link(href="", rel="stylesheet")
+        script(src='/jquery/dist/jquery.min.js')
     body
         div.outer
             .outer-cell
@@ -15,26 +15,19 @@ html
                         .text #{messages[0].name}
                      .body
                         -for (var i = 0; i < messages.length; i++)
-                            if ( messages[i].type == 'receive')
-                                .text.receive(style="height :" + messages[i].text.length*1.7 + "px")
-                                    .text.receive.photozone
+                            if ( messages[i].type === 'receive')
+                                .message.receive
+                                    .photozone
+                                        .photo
+                                    .textzone #{messages[i].text}
+                                    .empty
 
-                                        .text.receive.photozone.photo
-                                    .text.receive.textzone #{messages[i].text}
-                                    .text.receive.empty
-
-                            else if ( messages[i].type == 'send')
-                                .text.send(style="height :" + messages[i].text.length*1.7 + "px")
-                                    .text.send.empty1
-                                    .text.send.textzone #{messages[i].text}
-                                    .text.send.empty2
-                            .empty
-
-
+                            else if ( messages[i].type === 'send')
+                                .message.send
+                                    .textzone #{messages[i].text}
 
                     .inputbar
-                        .empty
-                        .text Message Bot Name...
+                        input.text(placeholder="Message Bot Name...")#messageInput
                     .iconzone
                         .icon.i.material-icons sort_by_alpha
                         .icon.i.material-icons camera_alt
@@ -43,5 +36,8 @@ html
                         .icon.i.material-icons gif
                         .icon.i.material-icons mic_none
                         .icon.i.material-icons location_on
-                        .icon.selected.i.material-icons thumb_up
+                        .icon.selected.i.material-icons#sendMessage thumb_up
+
+
+        script(src='/javascripts/talk.js')
 

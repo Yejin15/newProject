@@ -33,21 +33,24 @@ body {
 }
 
 .content > .titlebar {
-    height: 10%;
+    height: 80px;
     background: #f0f0f0;
-    border-bottom : solid 2px #dbdbdb;
-}
-.content > .titlebar >.text{
-    text-align: center;
-    line-height: 110px;
-    font-size : 25px;
+    border-bottom: solid 2px #dbdbdb;
 }
 
-.content > .body{
-    height: 79%;
-    padding: 10px 20px 0px 0px;
+.content > .titlebar > .text {
+    text-align: center;
+    line-height: 110px;
+    font-size: 25px;
 }
-.content > .body > .empty{
+
+.content > .body {
+    height: calc(100% - 180px);
+    padding: 10px 20px 0px 0px;
+    overflow-y: scroll;
+}
+
+.content > .body > .empty {
     width: 100%;
     height: 3%;
 }
@@ -55,9 +58,10 @@ body {
 .text.send {
     width: 100%;
     height: 100px;
-    display : flex;
+    display: flex;
 }
-.text.send >.textzone {
+
+.text.send > .textzone {
 
     height: 100%;
     flex: 20;
@@ -69,25 +73,29 @@ body {
     font-size: 22px;
     line-height: 28px;
 }
-.text.send >.empty1 {
 
-     height: 100%;
-     width: 10%;
-     flex: 8;
- }
-.text.send >.empty2 {
+.text.send > .empty1 {
+
+    height: 100%;
+    width: 10%;
+    flex: 8;
+}
+
+.text.send > .empty2 {
 
     height: 100%;
     width: 10%;
     flex: 1;
 }
+
 .text.receive {
     width: 100%;
     height: 100px;
     color: #000000;
-    display : flex;
+    display: flex;
 }
-.text.receive >.textzone {
+
+.text.receive > .textzone {
     height: 100%;
     flex: 5;
     background: #f0f1f1;
@@ -98,69 +106,63 @@ body {
     font-size: 22px;
     line-height: 28px;
 }
-.text.receive >.empty {
+
+.text.receive > .empty {
 
     height: 100%;
     flex: 1;
 }
 
-
-
-.text.receive >.photozone {
+.text.receive > .photozone {
 
     height: 100%;
     flex: 1;
     position: relative;
 }
 
-.text.receive >.photozone >.photo {
+.text.receive > .photozone > .photo {
     position: absolute;
-    right : 3px;
+    right: 3px;
     bottom: 3px;
     height: 50px;
     border-radius: 50%;
     width: 50px;
     background: url('https://pbs.twimg.com/media/DOBylmEUEAAzSNR.jpg');
     background-size: cover !important;
-    }
+}
 
-
-
-
-.content >.inputbar{
-    height: 6%;
+.content > .inputbar {
+    height: 50px;
     border-top: solid 2px #dbdbdb;
     color: #afafaf;
     display: flex;
+    padding: 0 12px
 
 }
-.content >.inputbar > .empty{
-    height: 100%;
-    flex: 1;
 
-}
-.content >.inputbar > .text{
+.content > .inputbar > input.text {
     height: 100%;
     color: #afafaf;
-    line-height: 33px;
-    font-size:18px;
-    flex: 20;
+    line-height: 50px;
+    font-size: 18px;
+    width: 100%
 
 }
 
-.content >.iconzone{
-    height: 5%;
-
+.content > .iconzone {
+    height: 50px;
     width: 100%;
-    }
-.content >.iconzone >.icon {
-    width: calc(100%/8);
+}
+
+.content > .iconzone > .icon {
+    width: calc(100% / 8);
     text-align: center;
     color: #afafaf;
     font-size: 29px;
+    line-height: 50px;
 }
-.selected
-{
+
+.selected {
     color: #7bb5db !important;
 }
 
