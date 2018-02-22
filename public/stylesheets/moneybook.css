@@ -49,27 +49,18 @@ body {
         text-align: center; }
       .content .body .name .X {
         flex: 1; }
-    .content .body .data {
+    .content .body #data {
       overflow-y: scroll;
       height: calc(100% - 100px); }
-      .content .body .data .row {
+      .content .body #data .row {
         display: flex;
         height: 30px; }
-        .content .body .data .row .cells1 {
+        .content .body #data .row .cells {
           flex: 2;
           text-align: center; }
-        .content .body .data .row .cells2 {
-          flex: 2;
-          text-align: center; }
-        .content .body .data .row .cells3 {
-          flex: 2;
-          text-align: center; }
-        .content .body .data .row .cells4 {
-          flex: 2;
-          text-align: center; }
-        .content .body .data .row .close {
+        .content .body #data .row .close {
           flex: 1; }
-          .content .body .data .row .close .X {
+          .content .body #data .row .close .X {
             background: red;
             display: inline;
             text-align: center;
