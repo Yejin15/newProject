@@ -28,4 +28,8 @@ router.get('/talk', function (req, res, next) {
 
 });
 
+router.get('/moneybook',function (req, res, next) {
+    res.render('accountbook', { title: 'Express' });
+});
+
 module.exports = router;

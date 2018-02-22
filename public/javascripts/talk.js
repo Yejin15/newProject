@@ -1,34 +1,9 @@
-console.log($);
-
-
-var a = 10;
-var b = 20;
-var c = a + b;
-
 
 var $body = $('.body');
+var $content = $('.content');
+var $button = $content.find('.button');
 
-
-var $children = $body.find('.message');
-console.log($children);
-console.log($($children[0]));
-
-
-for (var i = 0; i < $children.length; i++) {
-  var $target = $($children[i]);
-
-  $target.on('click', function () {
-
-    var $message = $(this);
-    var $textzone = $message.find('.textzone');
-
-    console.log($textzone.css('position'));
-
-  });
-}
-
-
-$('#sendMessage').on('click', function () {
+$('.content').find('.button').on('click', function () {
 
   // HTML 을 String으로 가지고, jQuery 객체로 변환하면
   // 새로운 DOM이 생성되는것과 같다.
@@ -40,7 +15,7 @@ $('#sendMessage').on('click', function () {
   var message = $('#messageInput').val();
 
   $("<div class='message send'>" +
-    "<div class='textzone'> " + message + " !!!</div>" +
+    "<div class='textzone'> " +  $('#messageInput').val()  +
     " </div>").appendTo($body);
 });
 

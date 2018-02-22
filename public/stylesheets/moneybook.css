@@ -1,0 +1,98 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #ccc;
+  height: 100vh;
+  padding: 0;
+  margin: 0; }
+
+/* 중앙정렬 용 CSS */
+.outer {
+  margin: auto;
+  width: 480px;
+  height: 100%;
+  display: table; }
+  .outer > .outer-cell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%; }
+
+/* 내용 디자인 용 */
+.content {
+  width: 100%;
+  height: 800px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 8px; }
+  .content .titlebar {
+    height: 60px;
+    background: #f0f0f0;
+    border-bottom: solid 2px #dbdbdb; }
+    .content .titlebar .text {
+      text-align: center;
+      line-height: 60px;
+      font-size: 30px; }
+  .content .body {
+    height: calc(100% - 110px);
+    border-top: solid #4a4a4a 2px;
+    border-bottom: solid #4a4a4a 2px; }
+    .content .body .name {
+      height: 50px;
+      background: #7bb5db;
+      display: flex; }
+      .content .body .name .cells {
+        flex: 2;
+        font-size: 25px;
+        line-height: 50px;
+        text-align: center; }
+      .content .body .name .X {
+        flex: 1; }
+    .content .body .data {
+      overflow-y: scroll;
+      height: calc(100% - 100px); }
+      .content .body .data .row {
+        display: flex;
+        height: 30px; }
+        .content .body .data .row .cells1 {
+          flex: 2;
+          text-align: center; }
+        .content .body .data .row .cells2 {
+          flex: 2;
+          text-align: center; }
+        .content .body .data .row .cells3 {
+          flex: 2;
+          text-align: center; }
+        .content .body .data .row .cells4 {
+          flex: 2;
+          text-align: center; }
+        .content .body .data .row .close {
+          flex: 1; }
+          .content .body .data .row .close .X {
+            background: red;
+            display: inline;
+            text-align: center;
+            font-size: 15px; }
+    .content .body .total {
+      height: 50px;
+      border-top: #4a4a4a 2px;
+      background: #e2e2e2;
+      display: flex; }
+      .content .body .total .cells {
+        flex: 2;
+        text-align: center;
+        line-height: 50px; }
+      .content .body .total .X {
+        flex: 1; }
+  .content .inputbar {
+    height: 50px;
+    display: flex; }
+    .content .inputbar input.cells {
+      flex: 1; }
+    .content .inputbar .button {
+      flex: 1;
+      background: #4482fc;
+      border-radius: 3px; }
+
+/*# sourceMappingURL=moneybook.css.map */

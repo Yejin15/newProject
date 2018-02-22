@@ -1,0 +1,37 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/moneybook.css')
+        link(href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        script(src='/jquery/dist/jquery.min.js')
+    body
+        script(src='/javascripts/moneybook.js')
+        div.outer
+            .outer-cell
+                .content
+                    .titlebar
+                        .text 가계부
+                    .body
+                        .name
+                            .cells 날짜
+                            .cells 수입
+                            .cells 지출
+                            .cells 합계
+                            .X
+
+                        .data
+                        .total
+                            .cells 합계
+                            .cells#inTotal 0원
+                            .cells#exTotal 0원
+                            .cells#Total 0원
+                            .X
+                    .inputbar
+                        input.cells(placeholder="날짜")#date
+                        input.cells(placeholder="수입")#income
+                        input.cells(placeholder="지출")#expense
+                        .button 입력
+        script(src='/javascripts/moneybook.js')
